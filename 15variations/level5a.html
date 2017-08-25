@@ -6,18 +6,84 @@
 
 <style media="screen">
 
-body {
-  background-color: aqua;
-  font-family: helvetica;
-  width:500px;
-  margin:auto;
 
-p {
+a {
   color: white;
-  border:1px solid black;
-  padding:30px;
+  font-family: arial;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 3px;
 }
 
+a:hover {
+  color: orchid;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.topright {
+  position: fixed;
+      top: 8px;
+      right: 16px;
+      font-size: 18px;
+
+}
+
+.teal-rectangle {
+background-color: teal;
+padding: 10px 10px 10px 10px;
+margin-top: 60px;
+margin-right: 10px;
+text-align:center;
+}
+
+.background {
+  background-color: :red;
+  height:700px;
+  width:500px;
+  margin:auto;
+  position: relative;
+  animation: colorflash 5s infinite alternate;
+}
+
+.header {
+  color:white;
+  font-family: arial;
+  font-size:22px;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  top:20px;
+  left:0px;
+  letter-spacing: 5px;
+}
+
+.circle {
+  width:300px;
+  height:300px;
+  font-family: arial;
+  font-size:50px;
+  text-align: center;
+  background-color: red;
+  border-radius:50%;
+  z-index:2;
+  position: fixed;
+  top:50px;
+  left:40px;
+  animation: colorchange 5s infinite alternate;
+}
+
+@keyframes colorchange {
+    from {background-color:red;}
+    to {background-color:white;}
+}
+
+@keyframes colorflash {
+    from {background-color:red;}
+    to {background-color:black;}
+}
 
 
 
@@ -26,7 +92,46 @@ p {
   </head>
   <body>
 
-  <p> Animal rights is the movement to protect animals from being used or regarded as property by human beings. It is a radical social movement insofar as it aims not only to attain more humane treatment for animals, but also to include species other than human beings within the moral community by giving their basic interests—for example, the interest in avoiding suffering—the same consideration as those of human beings. The claim is that animals should no longer be regarded legally or morally as property, or treated as resources for human purposes, but should instead be regarded as persons </p>
+
+    <div class="topright">
+
+    <div class="teal-rectangle">
+        <a href="./index.html"> HOME </a>
+    </div>
+
+    <br>
+
+      <div class="teal-rectangle">
+        <a href="./level4c.html"> BACK </a>
+      </div>
+
+    <br>
+
+      <div class="teal-rectangle">
+        <a href="./level5b.html"> NEXT </a>
+      </div>
+
+    <br>
+
+    </div>
+
+
+
+    <div class="background">
+        <div class="circle"> <br> <br> <strong> ANIMAL RIGHTS </strong>
+        </div>
+      <div class="header"> The movement to protect animals from being used or regarded as property by human beings. A radical social movement that aims not only to attain more humane treatment for animals, but also to include species other than human beings within the moral community by giving their basic interests, for example, the interest in avoiding suffering... the same consideration as those of human beings. The claim is that animals should no longer be regarded legally or morally as property, or treated as resources for human purposes, but should instead be regarded as persons.
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
 
   </body>
 </html>

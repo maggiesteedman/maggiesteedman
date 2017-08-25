@@ -11,11 +11,13 @@ a {
   text-decoration: none;
   text-align:center;
   font-size: 30px;
+  transition: all .2s ease-in-out;
 }
 
 a:hover {
-  color: yellow;
+  color: orchid;
   text-decoration: none;
+  font-weight: bold;
 
 }
 
@@ -29,7 +31,7 @@ letter-spacing: 2px;
 margin-left:20px;
 margin-right:20px;
 margin-bottom:20px;
-margin-top:20px;
+margin-top:50px;
 line-height: 50px;
 }
 
@@ -46,8 +48,8 @@ h2 {
 }
 
 
-.red-rectangle {
-background-color: red;
+.steelblue-rectangle {
+background-color: steelblue;
 padding: 10px 10px 10px 10px;
 margin-bottom: 100px;
 margin-left: 60px;
@@ -55,8 +57,8 @@ margin-right: 60px;
 text-align:center;
 }
 
-.orange-rectangle {
-background-color: orange;
+.lightskyblue-rectangle {
+background-color: lightskyblue;
 padding: 10px 10px 10px 10px;
 margin-bottom: 100px;
 margin-left: 60px;
@@ -64,8 +66,8 @@ margin-right: 60px;
 text-align:center;
 }
 
-.purple-rectangle {
-background-color: purple;
+.paleturquoise-rectangle {
+background-color: paleturquoise;
 padding: 10px 10px 10px 10px;
 margin-bottom: 100px;
 margin-left: 60px;
@@ -73,8 +75,8 @@ margin-right: 60px;
 text-align:center;
 }
 
-.green-rectangle {
-background-color: limegreen;
+.mediumturquoise-rectangle {
+background-color: mediumturquoise;
 padding: 10px 10px 10px 10px;
 margin-bottom: 100px;
 margin-left: 60px;
@@ -82,14 +84,17 @@ margin-right: 60px;
 text-align:center;
 }
 
-.blue-rectangle {
-background-color: blue;
+.teal-rectangle {
+background-color: teal;
 padding: 10px 10px 10px 10px;
 margin-bottom: 100px;
 margin-left: 60px;
 margin-right: 60px;
 text-align:center;
 }
+
+
+
 
 
 </style>
@@ -98,73 +103,88 @@ text-align:center;
   <body>
 
 
+  <style>
 
-<a href="about/about.html"> 15 variations </a> <br> <br> <br>
+  @keyframes argh-my-eyes {
+      10%   { background-color: steelblue; }
+      20%   { background-color: white; }
+      30% { background-color: lightskyblue; }
+      40%   { background-color: white; }
+      50% { background-color: paleturquoise; }
+      60%   { background-color: white; }
+      70% { background-color: mediumturquoise; }
+      80%   { background-color: white; }
+      90% { background-color: teal; }
+      100%   { background-color: white; }
+    }
 
+body {
+animation:         argh-my-eyes 10s infinite;
+}
+</style>
 
 
 
 <div class="grid">
 
 
-
-<div class="green-rectangle">
+<div class="steelblue-rectangle">
 <a href="level1a.html">level 1a</a>
 </div>
 
-<div class="blue-rectangle">
+<div class="lightskyblue-rectangle">
 <a href="level2a.html">level 2a</a>
 </div>
 
-<div class="purple-rectangle">
+<div class="paleturquoise-rectangle">
 <a href="level3a.html">level 3a</a>
 </div>
 
-<div class="red-rectangle">
+<div class="mediumturquoise-rectangle">
 <a href="level4a.html">level 4a</a>
 </div>
 
-<div class="orange-rectangle">
+<div class="teal-rectangle">
 <a href="level5a.html">level 5a</a>
 </div>
 
-<div class="green-rectangle">
+<div class="steelblue-rectangle">
 <a href="level1b.html">level 1b</a>
 </div>
 
-<div class="blue-rectangle">
+<div class="lightskyblue-rectangle">
 <a href="level2b.html">level 2b</a>
 </div>
 
-<div class="purple-rectangle">
+<div class="paleturquoise-rectangle">
 <a href="level3b.html">level 3b</a>
 </div>
 
-<div class="red-rectangle">
+<div class="mediumturquoise-rectangle">
 <a href="level4b.html">level 4b</a>
 </div>
 
-<div class="orange-rectangle">
+<div class="teal-rectangle">
 <a href="level5b.html">level 5b</a>
 </div>
 
-<div class="green-rectangle">
+<div class="steelblue-rectangle">
 <a href="level1c.html">level 1c</a>
 </div>
 
-<div class="blue-rectangle">
+<div class="lightskyblue-rectangle">
 <a href="level2c.html">level 2c</a>
 </div>
 
-<div class="purple-rectangle">
+<div class="paleturquoise-rectangle">
 <a href="level3c.html">level 3c</a>
 </div>
 
-<div class="red-rectangle">
+<div class="mediumturquoise-rectangle">
 <a href="level4c.html">level 4c</a>
 </div>
 
-<div class="orange-rectangle">
+<div class="teal-rectangle">
 <a href="level5c.html">level 5c</a>
 </div>
 
