@@ -1,0 +1,123 @@
+/* Note target the body first with the modifer.
+For example, every evenSecond change the div color to blue.
+Every oddSecond change the div color to red
+
+body.evenS .time {
+  color:blue;
+}
+
+body.oddS .time {
+  color:red;
+}
+
+Target multiple together. Every evenSecond only in the evening, display an image.
+
+body.evenS.pm .sunset {
+  display:block;
+}
+
+*/
+
+
+
+.toast_wrapper, .chicken_wrapper {
+  display: none;
+}
+
+body.halfM .toast_wrapper {
+  display: block;
+}
+
+body.fullM .chicken_wrapper {
+  display: block;
+}
+
+.addcells img {
+  display: none;
+}
+
+body.s1 .cell1,
+body.s9 .cell1,
+body.s17 .cell1,
+body.s25 .cell1,
+body.s31 .cell1,
+body.s39 .cell1,
+body.s47 .cell1,
+body.s55 .cell1 {
+  display: block;
+}
+
+body.s2 .cell2,
+body.s10 .cell2,
+body.s18 .cell2,
+body.s26 .cell2,
+body.s32 .cell2,
+body.s40 .cell2,
+body.s48 .cell2,
+body.s56 .cell2 {
+  display: block;
+}
+
+body.s3 .cell4,
+body.s11 .cell4,
+body.s19 .cell4,
+body.s27 .cell4,
+body.s33 .cell4,
+body.s41 .cell4,
+body.s49 .cell4,
+body.s57 .cell4 {
+  display: block;
+}
+
+body.s4 .cell8,
+body.s12 .cell8,
+body.s20 .cell8,
+body.s28 .cell8,
+body.s34 .cell8,
+body.s42 .cell8,
+body.s50 .cell8,
+body.s58 .cell8 {
+  display: block;
+}
+
+body.s5 .cell16,
+body.s13 .cell16,
+body.s21 .cell16,
+body.s29 .cell16,
+body.s35 .cell16,
+body.s43 .cell16,
+body.s51 .cell16,
+body.s59 .cell16 {
+  display: block;
+}
+
+body.s6 .cell32,
+body.s14 .cell32,
+body.s22 .cell32,
+body.s30 .cell32,
+body.s36 .cell32,
+body.s44 .cell32,
+body.s52 .cell32,
+body.s60 .cell32 {
+  display: block;
+}
+
+body.s7 .cell64,
+body.s15 .cell64,
+body.s23 .cell64,
+body.s31 .cell64,
+body.s37 .cell64,
+body.s45 .cell64,
+body.s53 .cell64 {
+  display: block;
+}
+
+body.s8 .cell128,
+body.s16 .cell128,
+body.s24 .cell128,
+body.s32 .cell128,
+body.s38 .cell128,
+body.s46 .cell128,
+body.s54 .cell128 {
+  display: block;
+}
