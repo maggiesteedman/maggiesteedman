@@ -12,17 +12,13 @@
 
 
 body {
-  font-family: arial;
+  font-family: courier;
 }
 
 .container {
   display: flex;
   flex-wrap:wrap;
   align-items: flex-end;
-}
-
-.item {
-
 }
 
 .item.thumbnail {
@@ -91,7 +87,7 @@ body {
 
 
 .nav span:hover, .footer span:hover {
-  color: blue;
+  color: red;
   cursor: pointer;
 }
 

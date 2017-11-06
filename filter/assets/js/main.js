@@ -4,52 +4,72 @@ $(document).ready(function() {
 // Add jQuery here
 
 
-$('.nav_ad').click(function(event){
+$('.nav_hu').click(function(event){
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.ad').removeClass('hide');
-  $('.item.ad').addClass('show');
+  $('.item.hu').removeClass('hide');
+  $('.item.hu').addClass('show');
 
   $('.nav_clear').addClass('show')
 });
 
-$('.nav_pipe').click(function(event){
+$('.nav_an').click(function(event){
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.pipe').removeClass('hide');
-  $('.item.pipe').addClass('show');
+  $('.item.an').removeClass('hide');
+  $('.item.an').addClass('show');
 
 });
 
 
-$('.nav_plan').click(function(event){
+$('.nav_me').click(function(event){
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.plan').removeClass('hide');
-  $('.item.plan').addClass('show');
+  $('.item.me').removeClass('hide');
+  $('.item.me').addClass('show');
 
 });
 
-$('.nav_brick').click(function(event){
+$('.nav_gr').click(function(event){
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.brick').removeClass('hide');
-  $('.item.brick').addClass('show');
+  $('.item.gr').removeClass('hide');
+  $('.item.gr').addClass('show');
 
   $('.nav_clear').addClass('show')
 });
 
 
-$('.nav_window').click(function(event){
+$('.nav_ta').click(function(event){
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.window').removeClass('hide');
-  $('.item.window').addClass('show');
+  $('.item.ta').removeClass('hide');
+  $('.item.ta').addClass('show');
+
+  $('.nav_clear').addClass('show')
+});
+
+$('.nav_ar').click(function(event){
+  $('.item').removeClass('show');
+  $('.item').addClass('hide');
+
+  $('.item.ar').removeClass('hide');
+  $('.item.ar').addClass('show');
+
+  $('.nav_clear').addClass('show')
+});
+
+$('.nav_di').click(function(event){
+  $('.item').removeClass('show');
+  $('.item').addClass('hide');
+
+  $('.item.di').removeClass('hide');
+  $('.item.di').addClass('show');
 
   $('.nav_clear').addClass('show')
 });
